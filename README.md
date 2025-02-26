@@ -16,6 +16,8 @@ The **Virtual Fashion Agent** is a Python-based shopping assistant that helps us
 ## 🔧 Setup Instructions
 
 ### 1️⃣ Clone the Repository
+
+
 ```sh
 git clone https://github.com/UmangSonika/Project.git
 cd Project
