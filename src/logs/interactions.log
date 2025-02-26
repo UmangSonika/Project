@@ -1,0 +1,61 @@
+{
+  "User Query": "Find a floral skirt under $40 in size S. Is it in stock, and can I apply a discount code 'SAVE10'?",
+  "Agent Response": {
+    "multi_tool_results": {
+      "search": null,
+      "shipping": null,
+      "discount": null,
+      "price_comparison": null,
+      "return_policy": null
+    }
+  }
+}
+
+{
+  "User Query": "I need white sneakers (size 8) for under $70 that can arrive by Friday.",
+  "Agent Response": {
+    "shipping": {
+      "cost": 14,
+      "arrival_date": "2025-03-03"
+    }
+  }
+}
+
+{
+  "User Query": "I found a \u2018casual denim jacket\u2019 at $80 on SiteA. Any better deals?",
+  "Agent Response": {
+    "price_comparison": {
+      "SiteA": 80,
+      "SiteB": 75,
+      "SiteC": 70
+    }
+  }
+}
+
+{
+  "User Query": "I want to buy a cocktail dress from SiteB, but only if returns are hassle-free. Do they accept returns?",
+  "Agent Response": {
+    "return_policy": "Policy not found.",
+    "multi_tool_results": {
+      "search": null,
+      "shipping": null,
+      "discount": null,
+      "price_comparison": null,
+      "return_policy": "Policy not found."
+    }
+  }
+}
+
+{
+  "User Query": "Find a black hoodie under $50, check for discounts, compare prices on SiteA and SiteB, and estimate shipping to New York by Friday.",
+  "Agent Response": {
+    "multi_tool_results": {
+      "search": null,
+      "shipping": null,
+      "discount": null,
+      "price_comparison": null,
+      "return_policy": null
+    }
+  }
+}
+
